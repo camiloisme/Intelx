@@ -3,10 +3,10 @@ const navBar = document.querySelector(".navbar")
 navToggle.addEventListener ("click", () => {
     navBar.classList.toggle("nav_active");
     if (navBar.classList.contains("nav_active")){
-        navToggle.setAttribute("arial-label", "Cerrar Menú");
+        navToggle.setAttribute("aria-label", "Cerrar Menú");
         }
         else {
-            navToggle.setAttribute("arial-label", "Abrir Menú");
+            navToggle.setAttribute("aria-label", "Abrir Menú");
         }
       
     }
