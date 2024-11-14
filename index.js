@@ -1,5 +1,5 @@
-const navToggle = document.querySelector (".nav-toggle")
-const navActive = document.querySelector (".nav_active")
-navToggle.addEventListener (click, () => {
-    navActive.classList.toggle("nav_active");
+const navToggle = document.querySelector(".nav-toggle")
+const navBar = document.querySelector(".navbar")
+navToggle.addEventListener ("click", () => {
+    navBar.classList.toggle("nav_active");
 })
