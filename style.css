@@ -6,7 +6,7 @@ body{
     padding: 90px 20px 0px;
 }
 .header {
-    background-color: #913595;
+    background: linear-gradient(90deg, #b429f9, #6a00c9);
     height: 80px;
     position: fixed;
     width: 100%;
@@ -33,7 +33,7 @@ body{
     line-height: 80px;
     width: max-content;
     white-space: nowrap;
-   
+    text-decoration: none;
 }
 
 
@@ -115,10 +115,9 @@ list-style: none;
         .nav_active {
             left: 0%;
         }
+        .nav-toggle:focus:not(:focus-visible) {
+            outline: none;
+        }
+}
 
     }
-}
-.section {
-    background-image: url(/agujero-negro.jpg);
-}
-
