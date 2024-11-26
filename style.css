@@ -81,7 +81,7 @@ background-image: url(agujero-negro.jpg);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
-min-height: 100vh;
+min-height: 60vh;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -103,6 +103,31 @@ position: relative;
 .main-content .content {
     position: relative;
     z-index: 2;
+}
+.imagen {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 18px;
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.h1 {
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    color: wheat;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #6a00c9;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0, 0.6);
+    letter-spacing: 3px;
 }
 @media (max-width:768px) {
         body{
