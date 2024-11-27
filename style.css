@@ -9,6 +9,8 @@ body{
     padding: 90px 20px 0px;
     height: 100%;
     min-height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .header {
     background-color: white;
@@ -47,7 +49,7 @@ will-change: left;
 
 }
 .item {
-    font-size: 18px;
+    font-size: 1rem;
     margin: 0 10px;
     text-transform: uppercase;
     line-height: 50px ;
@@ -77,7 +79,8 @@ will-change: left;
     cursor: pointer;
 }
 .main-content {
-background-image: url(agujero-negro.jpg);
+background-image:url(universe.webp);
+background-color: #000;
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -134,14 +137,16 @@ footer {
     color: #fff;
     padding: 20px 0;
     font-family: sans-serif;
+    
 }
 .footer-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
-    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    width: 100%;
 }
 .footer-container section {
     flex: 1;
@@ -188,6 +193,11 @@ transition: transform 0.4s; filter: 0.3s;
 .contact-info p a {
 text-decoration: none;
 color: #fff;
+transition: transform 0.4s;
+}
+.contact-info p a:hover {
+    color: #d2a1ff;
+    transition: 0.5s;
 }
 @media (max-width:768px) {
         body{
@@ -224,13 +234,14 @@ color: #fff;
             font-size: 18px;
             margin: 0 10px;
             text-transform: uppercase;
-            line-height: 40px ;
-        
         }
-        
+        .page {
+            color: white;
+        }
         .page:hover, .page_active {
             background: none;
             color: #d4a5ff;
+            cursor: pointer;
         }
         .nav-toggle {
             display: block;
